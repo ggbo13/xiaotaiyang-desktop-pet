@@ -1,0 +1,35 @@
+name: Windows installer
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 语法与安装发布检查
+        shell: powershell
+        run: |
+          & ./tests/release-syntax-check.ps1
+          & ./tests/installer-check.ps1
+          & ./tests/installation-policy-check.ps1
+          & ./tests/installed-launcher-check.ps1
+          & ./tests/public-package-check.ps1
+      - name: 隔离数据回归
+        shell: powershell
+        run: |
+          & ./tests/growth-tests.ps1
+          & ./tests/parser-tests.ps1
+          & ./tests/interval-reminder-check.ps1
+      - name: 构建安装包
+        shell: powershell
+        run: '& ./tools/build-installer.ps1'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: XiaoTaiYang-Setup
+          path: dist/*
+          if-no-files-found: error

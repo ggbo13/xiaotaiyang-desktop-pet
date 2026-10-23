@@ -1,0 +1,19 @@
+# runtime data (regenerated on first use)
+data/*.json
+# offscreen render smoke output
+tests/renders/
+# python caches
+__pycache__/
+*.pyc
+# 安装构建、个人数据与凭据不得公开
+/data/
+/build/
+/dist/
+/.tools/
+/.superpowers/
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
