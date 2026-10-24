@@ -54,8 +54,9 @@ $script:Store = Get-PetStore
 $growthBeforeUpgrade = $script:Store['growth'] | ConvertTo-Json -Depth 8 -Compress
 $null = Initialize-PetGrowth -Store $script:Store
 $script:GrowthNeedsSave = $growthBeforeUpgrade -ne ($script:Store['growth'] | ConvertTo-Json -Depth 8 -Compress)
-if (@($script:Store.growth.unlockedSkins) -notcontains [string]$script:Config.skinId) {
+if (-not (Test-PetSkinUnlocked -Store $script:Store -SkinId ([string]$script:Config.skinId))) {
     $script:Config.skinId = 'original'
+    Write-PetConfig -Config $script:Config
 }
 
 # TTS

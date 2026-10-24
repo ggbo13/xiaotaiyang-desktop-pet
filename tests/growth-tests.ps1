@@ -12,7 +12,7 @@ $now = Get-Date '2026-09-16 12:00:00'
 $store = @{ items = @() }
 $growth = Initialize-PetGrowth -Store $store -Now $now
 Assert ($growth.intimacy -eq 0 -and $growth.mood -eq 70) '旧数据未正确补齐成长字段'
-Assert (@($growth.unlockedSkins) -contains 'western') '新存档未开放复古牛仔皮肤'
+Assert (@($growth.unlockedSkins) -notcontains 'western') '新存档提前开放复古牛仔皮肤'
 
 $legacyStore = @{
     items = @(@{ id='old-todo'; text='保留原待办' })
@@ -28,9 +28,9 @@ $legacyStore = @{
 $legacy = Initialize-PetGrowth -Store $legacyStore -Now $now
 Assert ($legacy.intimacy -eq 43 -and $legacy.mood -eq 81 -and $legacy.daily.todo -eq 8) '迁移修改了旧成长进度'
 Assert (@($legacy.rewardedKeys) -contains 'todo:old-todo' -and $legacyStore.items[0].text -eq '保留原待办' -and $legacyStore.reminders[0].text -eq '保留原提醒') '迁移修改了旧待办、提醒或奖励记录'
-Assert (@($legacy.unlockedSkins) -contains 'western' -and @($legacy.unlockedSkins) -contains 'moonlit') '迁移未保留原皮肤并开放牛仔皮肤'
-Assert (@(Update-PetGrowthUnlocks -Store $legacyStore).Count -eq 0) '牛仔皮肤不应产生解锁提示'
-Assert (@($legacy.unlockedSkins | Where-Object { $_ -eq 'western' }).Count -eq 1) '重复初始化产生了重复牛仔皮肤'
+Assert (@($legacy.unlockedSkins) -notcontains 'western' -and @($legacy.unlockedSkins) -contains 'moonlit') '迁移提前开放牛仔或改动了原皮肤'
+Assert (@(Update-PetGrowthUnlocks -Store $legacyStore).Count -eq 0) '未满100不应产生牛仔解锁提示'
+Assert (@($legacy.unlockedSkins | Where-Object { $_ -eq 'western' }).Count -eq 0) '重复初始化提前开放牛仔皮肤'
 
 $pet = Invoke-PetGrowthInteraction -Store $store -Kind pet -Now $now
 Assert ($pet.points -eq 2 -and $store.growth.mood -eq 78) '摸摸奖励错误'

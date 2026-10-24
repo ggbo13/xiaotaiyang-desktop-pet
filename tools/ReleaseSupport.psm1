@@ -78,7 +78,7 @@ function Get-PetPublicFiles {
         'tools/build-installer.ps1','tools/bootstrap-nsis.ps1','tools/export-public.ps1','tools/publish-release.ps1'
     )
     foreach($test in @('basic-functions-check','growth-tests','highfive-check','interval-reminder-check',
-        'preview-check','music-cover-check','music-form-check','parser-tests','launcher-check','launcher-probe',
+        'preview-check','music-cover-check','music-form-check','parser-tests','launcher-check','launcher-probe','western-unlock-check',
         'installer-check','installed-launcher-check','installer-artifact-check','public-package-check','release-syntax-check','publish-prepare-check','installation-policy-check')){
         $files+="tests/$test.ps1"
     }

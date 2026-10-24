@@ -86,7 +86,7 @@ Check 'actual startup persists legacy growth and preserves selected skins and it
     Write-PetConfig -Config @{ skinId='original'; voice=$false; autoStart=$false }
     . $startupPath
     $upgraded = Get-PetStore
-    Assert ($upgraded.growth.intimacy -eq 0 -and $upgraded.growth.mood -eq 70 -and @($upgraded.growth.unlockedSkins) -contains 'western') 'Pre-growth startup migration did not persist defaults'
+    Assert ($upgraded.growth.intimacy -eq 0 -and $upgraded.growth.mood -eq 70 -and @($upgraded.growth.unlockedSkins) -notcontains 'western') 'Pre-growth startup migration did not persist locked defaults'
     Assert ($upgraded.items.Count -eq 1 -and $upgraded.items[0].completed -and $script:PendingCatchUpText -eq '旧版过期提醒') 'Startup catch-up lost the legacy reminder'
 }
 $script:Config = @{ topmost=$false; windowX=-1000; windowY=-1000; music=$false; voice=$false; autoStart=$false; idleChatter=$false; sleepAfterMin=3; skinId='original' }

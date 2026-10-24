@@ -23,6 +23,7 @@ jobs:
         shell: powershell
         run: |
           & ./tests/growth-tests.ps1
+          & ./tests/western-unlock-check.ps1
           & ./tests/parser-tests.ps1
           & ./tests/interval-reminder-check.ps1
       - name: 构建安装包

@@ -10,7 +10,7 @@ function New-PetGrowthState {
     return @{
         intimacy = 0
         mood = 70
-        unlockedSkins = @('original', 'western')
+        unlockedSkins = @('original')
         rewardedKeys = @()
         interactionCooldowns = @{}
         activeSeconds = 0
@@ -53,7 +53,7 @@ function Initialize-PetGrowth {
         if (-not $growth['daily'].ContainsKey($dailyKey)) { $growth['daily'][$dailyKey] = $defaults['daily'][$dailyKey] }
     }
     if ($null -eq $growth['rewardedKeys']) { $growth['rewardedKeys'] = @() }
-    if ($null -eq $growth['unlockedSkins']) { $growth['unlockedSkins'] = @('original', 'western') }
+    if ($null -eq $growth['unlockedSkins']) { $growth['unlockedSkins'] = @('original') }
     Update-PetGrowthDaily -Store $Store -Now $Now
     Update-PetGrowthUnlocks -Store $Store | Out-Null
     return $growth
@@ -79,17 +79,26 @@ function Update-PetGrowthUnlocks {
     if ($null -eq $growth) { return @() }
     $unlocked = @($growth['unlockedSkins'])
     if ($unlocked -notcontains 'original') { $unlocked += 'original' }
-    # 牛仔皮肤免费开放，迁移旧存档时加入可用列表，但不产生解锁提示。
-    if ($unlocked -notcontains 'western') { $unlocked += 'western' }
     $newItems = [System.Collections.ArrayList]@()
     if ([int]$growth['intimacy'] -ge 60 -and $unlocked -notcontains 'moonlit') {
         $unlocked += 'moonlit'; $null = $newItems.Add('moonlit')
+    }
+    if ([int]$growth['intimacy'] -ge 100 -and $unlocked -notcontains 'western') {
+        $unlocked += 'western'; $null = $newItems.Add('western')
     }
     if ([int]$growth['intimacy'] -ge 150 -and $unlocked -notcontains 'festival') {
         $unlocked += 'festival'; $null = $newItems.Add('festival')
     }
     $growth['unlockedSkins'] = @($unlocked | Select-Object -Unique)
     return $newItems.ToArray()
+}
+
+function Test-PetSkinUnlocked {
+    param([hashtable]$Store, [string]$SkinId)
+    $growth=$Store['growth']
+    # 保留旧版免费标记作为历史记录，但界面与启动均按新的牛仔门槛验证。
+    if ($SkinId -eq 'western') { return [int]$growth['intimacy'] -ge 100 }
+    return @($growth['unlockedSkins']) -contains $SkinId
 }
 
 function Get-PetGrowthStage {
@@ -300,7 +309,7 @@ function Show-PetGrowthWindow {
         @{id='original'; name='原版小太阳'; need=0},
         @{id='moonlit'; name='月夜'; need=60},
         @{id='festival'; name='庆典'; need=150},
-        @{id='western'; name='复古牛仔'; need=0}
+        @{id='western'; name='复古牛仔'; need=100}
     )
     $skinIndex = 0
     foreach ($skin in $skins) {
@@ -332,7 +341,7 @@ function Show-PetGrowthWindow {
         $button=New-Object Windows.Forms.Button
         $button.Tag = [string]$skin.id
         $button.Location=New-Object Drawing.Point(84,207); $button.Size=New-Object Drawing.Size(160,31)
-        $isUnlocked=@($growth.unlockedSkins) -contains $skin.id
+        $isUnlocked=Test-PetSkinUnlocked -Store $Store -SkinId $skin.id
         $button.Enabled=$isUnlocked -and ([string]$Config.skinId -ne $skin.id)
         $button.Text=if (-not $isUnlocked) { '亲密度 {0} 解锁' -f $skin.need } elseif ([string]$Config.skinId -eq $skin.id) { '当前使用' } else { '使用此外观' }
         if ($isUnlocked) { $button.BackColor=[Drawing.Color]::FromArgb(255,205,73); $button.FlatStyle='Flat' }
@@ -363,4 +372,4 @@ function Show-PetGrowthWindow {
     $form.Show()
 }
 
-Export-ModuleMember -Function New-PetGrowthState, Initialize-PetGrowth, Update-PetGrowthDaily, Update-PetGrowthUnlocks, Get-PetGrowthStage, Get-PetMoodLabel, Add-PetMood, Add-PetGrowthReward, Invoke-PetGrowthInteraction, Update-PetGrowthClock, Get-PetSkinAssetPath, Show-PetGrowthWindow
+Export-ModuleMember -Function New-PetGrowthState, Initialize-PetGrowth, Update-PetGrowthDaily, Update-PetGrowthUnlocks, Test-PetSkinUnlocked, Get-PetGrowthStage, Get-PetMoodLabel, Add-PetMood, Add-PetGrowthReward, Invoke-PetGrowthInteraction, Update-PetGrowthClock, Get-PetSkinAssetPath, Show-PetGrowthWindow
