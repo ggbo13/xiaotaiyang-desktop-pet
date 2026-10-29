@@ -1,0 +1,1506 @@
+{
+  "idle": [
+    {
+      "file": "frames-v1/012.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/013.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/014.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/015.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/016.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/017.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/018.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/019.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/020.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/021.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/022.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/023.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/024.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/023.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/022.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/021.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/020.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/019.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/018.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/017.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/016.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/015.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/014.png",
+      "durationMs": 80,
+      "state": "Idle"
+    },
+    {
+      "file": "frames-v1/013.png",
+      "durationMs": 80,
+      "state": "Idle"
+    }
+  ],
+  "interaction": [
+    {
+      "file": "frames-v1/012.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/013.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/014.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/015.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/016.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/017.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/018.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/019.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/020.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/021.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/022.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/023.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/024.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/025.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/026.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/027.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/028.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/029.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/030.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/031.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/032.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/033.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/034.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/035.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/036.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/037.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/038.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/039.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/040.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/041.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/042.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/043.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/044.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/045.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/046.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/047.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/048.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/049.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/050.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/051.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/052.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/053.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/054.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/055.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/056.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/057.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/058.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/059.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowStart"
+    },
+    {
+      "file": "frames-v1/060.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/061.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/062.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/063.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/064.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/065.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/066.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/067.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/068.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/069.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/070.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/071.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/072.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/073.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/074.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/075.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/076.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/077.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/078.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/079.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/080.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/081.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/082.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/083.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/084.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/085.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/086.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/087.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/088.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/089.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/090.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/091.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/092.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/093.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/094.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/095.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/096.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/097.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/098.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/099.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/100.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/101.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/102.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/103.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/104.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/105.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/106.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/107.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/108.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/109.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/110.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/111.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/112.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/113.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/114.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/115.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/116.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/117.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/118.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/119.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/120.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/121.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/122.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/123.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/124.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/125.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/126.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/127.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/128.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/129.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/130.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/131.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/132.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/133.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/134.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/135.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/136.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/137.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/138.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/139.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/140.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/141.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/142.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/143.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/144.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/145.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/146.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/147.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/148.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/149.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/150.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/151.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/152.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/153.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/154.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/155.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/156.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/157.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/158.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/159.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/160.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/161.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/162.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/163.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/164.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/165.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/166.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/167.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/168.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/169.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/170.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/171.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/172.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/173.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowHold"
+    },
+    {
+      "file": "frames-v1/174.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/175.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/176.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/177.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/178.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/179.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/180.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/181.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/182.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/183.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/184.png",
+      "durationMs": 41.666666666666664,
+      "state": "BowEnd"
+    },
+    {
+      "file": "frames-v1/185.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/186.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/187.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/188.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/189.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/190.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/191.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/192.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/193.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/194.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/195.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/196.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/197.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/198.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/199.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/200.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/201.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/202.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/203.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/204.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/205.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/206.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/207.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/208.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/209.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/210.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/211.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/212.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/213.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/214.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/215.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/216.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/217.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/218.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/219.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/220.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/221.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/222.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/223.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/224.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/225.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/226.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/227.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/228.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/229.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/230.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/231.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/232.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/233.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/234.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/235.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/236.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/237.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/238.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/239.png",
+      "durationMs": 41.666666666666664,
+      "state": "Happy"
+    },
+    {
+      "file": "frames-v1/238.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/237.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/236.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/235.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/234.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/233.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/232.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/231.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/230.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/229.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/228.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/227.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/226.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/225.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/224.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/223.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/222.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/221.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/220.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/219.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/218.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/217.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/216.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "transitions-v1/001.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "transitions-v1/002.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "transitions-v1/003.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "transitions-v1/004.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "transitions-v1/005.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "transitions-v1/006.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/030.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/029.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/028.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/027.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/026.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/025.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/024.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/023.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/022.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/021.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/020.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/019.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/018.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/017.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/016.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/015.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/014.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/013.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    },
+    {
+      "file": "frames-v1/012.png",
+      "durationMs": 41.666666666666664,
+      "state": "Transition"
+    }
+  ]
+}
