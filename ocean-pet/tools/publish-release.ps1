@@ -16,12 +16,13 @@ $work=Join-Path (Split-Path $root -Parent) ('build/ocean-publish-'+[guid]::NewGu
 New-Item -ItemType Directory $work | Out-Null
 $checkout=Join-Path $work 'repository'
 $null=Run git @('-c','credential.helper=','-c','credential.helper=!gh auth git-credential','clone','--single-branch','--branch','main',"https://github.com/$repo.git",$checkout)
-if(Test-Path (Join-Path $checkout 'ocean-pet')){throw '远端已经有独立桌宠目录，需要审查后再升级。'}
+$existingFiles=@(Run git @('-C',$checkout,'ls-files','ocean-pet')) -split "`n"
 $tags=Run git @('-C',$checkout,'tag','--list',$tag)
 if($tags.Trim()){throw '版本标签已存在，禁止覆盖。'}
 $files=@('README.md','project.psd1','src/OceanMaid.cs','src/SelfTest.cs','tools/build-app.ps1','tools/test-app.ps1','tools/build-installer.ps1','tools/bootstrap-nsis.ps1','tools/installer.nsi','tools/publish-release.ps1','assets/animation.json','assets/pet.ico')
 $files+=@(Get-ChildItem (Join-Path $root 'assets/frames-v1') -Filter '*.png' -File | ForEach-Object {'assets/frames-v1/'+$_.Name})
 $files+=@(Get-ChildItem (Join-Path $root 'assets/transitions-v1') -Filter '*.png' -File | ForEach-Object {'assets/transitions-v1/'+$_.Name})
+foreach($existing in $existingFiles){if($existing.Trim() -and $existing.Substring(10) -notin $files){throw "远端含额外文件，需要人工审查：$existing"}}
 $sourceHashes=@()
 foreach($relative in $files){
     $source=Join-Path $root $relative

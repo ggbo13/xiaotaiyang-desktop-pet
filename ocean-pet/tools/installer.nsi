@@ -44,6 +44,8 @@ Var AppMutex
 Function CheckDirectory
     ClearErrors
     ReadRegStr $0 HKCU "Software\OceanMaidDesktopPet" "InstallLocation"
+    ; 首次安装没有注册表项属于正常情况，不能把读取失败传递为目录错误。
+    ClearErrors
     ${If} $0 != ""
     ${AndIf} $0 != $INSTDIR
         SetErrors
